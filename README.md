@@ -98,13 +98,7 @@ flutter run
 
 ## 📁 Project Structure (Key Files)
 
-- `main.dart`: Main app logic and UI.
-- `lib/models/transaction.dart`: Defines the Transaction model.
-- `lib/services/database_helper.dart`: Manages SQLite database.
-- `lib/services/sms_reader.dart`: Handles Android SMS reading.
-- `lib/utils/transaction_parser.dart`: Parses SMS content using Regex.
-
-> Note: For better modularity, classes like `Transaction`, `DatabaseHelper`, `SMSReader`, and `TransactionParser` should ideally be in separate files.
+- `main.dart`: Main app logic and UI, Defines the Transaction model, Manages SQLite database, Handles Android SMS reading, Parses SMS content using Regex.
 
 ---
 
