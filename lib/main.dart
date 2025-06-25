@@ -1,5 +1,3 @@
-// main.dart - copy-paste this whole code block to replace your existing main.dart file
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -941,8 +939,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     }
   }
 
-  /// Loads transactions from the database based on the selected period.
-  /// This now uses the DatabaseHelper's date filtering capability.
   Future<void> _loadTransactions() async {
     final now = DateTime.now();
     DateTime? startDate;
